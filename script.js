@@ -15,7 +15,7 @@ const m3u8List = {
     // kids tv
     pbsk: "https://livestream.pbskids.org/out/v1/14507d931bbe48a69287e4850e53443c/est.m3u8",
     flix: "https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=50&amp;live=1&amp;app_bundle=com.plexapp.desktop",
-    pant: "https://newidco-kidspangtv-1-us.roku.wurl.tv/playlist.m3u8",
+    pang: "https://newidco-kidspangtv-1-us.roku.wurl.tv/playlist.m3u8",
     zomo: "https://amg01553-blueantmediaasi-zoomoonz-samsungnz-rdufn.amagi.tv/playlist/amg01553-blueantmediaasi-zoomoonz-samsungnz/playlist.m3u8",
     kart: "https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg01076-lightningintern-kartoonchannel-samsungnz/playlist.m3u8",
     // local news
@@ -46,7 +46,7 @@ const worldNews = [
 const kidsTV = [
     "images/pbsk.png",
     "images/flix.png",
-    "images/pant.png",
+    "images/pang.jpg",
     "images/zomo.png",
     "images/kart.png"
 ];
@@ -168,5 +168,4 @@ function changeM3u8(nM3u8) {
 }
 
 startUp();
-
 
